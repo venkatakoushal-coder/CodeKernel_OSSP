@@ -1,4 +1,43 @@
-Linux Setup and Process Analysis:-
+
+Step 1: Open PowerShell as Administrator
+1.	Press Windows. 
+2.	Search for PowerShell. 
+3.	Right-click Windows PowerShell. 
+
+Step 2: wsl --install in the powershell.
+
+Step 3: Restart Your Computer
+After installation, restart your PC when prompted.
+
+Step 4: Complete Ubuntu Setup
+After restarting:
+1.	Ubuntu opens automatically (or search for Ubuntu in the Start menu). 
+2.	Wait for the installation to finish. 
+3.	Create a Linux username. 
+Example:
+Enter new UNIX username: anusha
+
+Step 5: Create a Password
+You'll then be prompted to create a password.
+New password: ****
+Retype new password:****
+
+Step 6: Update Ubuntu
+
+Step 7: Install GCC (C Compiler) 
+
+Step 8: Verify the Installation
+
+Step 9: Create Your C Program
+Example: nano process.c
+
+Step 10: Compile the Program
+
+
+
+
+
+What was acheived?
 
 1. Linux VM Installation
 
