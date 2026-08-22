@@ -1,6 +1,5 @@
 #include<unistd.h>
 #include<stdio.h>
-#include<sys/wait.h>
 int main()
 {
 char command[50];
@@ -23,6 +22,5 @@ else
 {
 printf("current pid: %d\n", getpid());
 printf("parent pid: %d\n", getppid());
-wait(NULL);
 }
 }
