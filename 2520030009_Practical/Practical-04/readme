@@ -1,0 +1,14 @@
+1. wait()
+Parent waits for any child process to finish.
+Used to synchronize parent and child processes.
+Prevents child from becoming a zombie after termination.
+2. waitpid()
+Parent waits for a specific child process.
+Gives more control than wait().
+3. Zombie Process
+A child finishes execution, but its parent has not collected its exit status.
+The child remains in the process table as a zombie.
+wait() / waitpid() can remove the zombie.
+4. Process Table
+Stores information about processes.
+A zombie remains in the process table until the parent collects its status.
